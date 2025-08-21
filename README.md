@@ -173,8 +173,8 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 
 ## 👨‍💻 Autor
 
-**WinSparrow**
-- GitHub: [@WinSparrow](https://github.com/WinSparrow)
+**aajunior43**
+- GitHub: [@aajunior43](https://github.com/aajunior43)
 
 ## 🙏 Agradecimentos
 
