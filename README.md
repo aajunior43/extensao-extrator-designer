@@ -1,6 +1,31 @@
 # 🎨 Extractor de Estilo com Gemini
 
+[![GitHub release](https://img.shields.io/github/v/release/aajunior43/extensao-extrator-designer?style=for-the-badge)](https://github.com/aajunior43/extensao-extrator-designer/releases)
+[![License](https://img.shields.io/github/license/aajunior43/extensao-extrator-designer?style=for-the-badge)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/aajunior43/extensao-extrator-designer?style=for-the-badge)](https://github.com/aajunior43/extensao-extrator-designer/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/aajunior43/extensao-extrator-designer?style=for-the-badge)](https://github.com/aajunior43/extensao-extrator-designer/issues)
+
 Uma extensão moderna para navegadores que extrai automaticamente os estilos visuais de qualquer página web e gera prompts detalhados usando a API do Google Gemini.
+
+## 📸 Screenshots
+
+<div align="center">
+
+### Interface Principal
+![Interface Principal](https://via.placeholder.com/400x600/6366f1/ffffff?text=Interface+Principal)
+
+### Página de Configurações
+![Configurações](https://via.placeholder.com/400x600/10b981/ffffff?text=Configurações+Avançadas)
+
+### Histórico de Prompts
+![Histórico](https://via.placeholder.com/400x600/f59e0b/ffffff?text=Histórico+de+Prompts)
+
+### Exportação de Dados
+![Exportação](https://via.placeholder.com/400x600/ef4444/ffffff?text=Exportação+Múltipla)
+
+</div>
+
+> 📝 **Nota**: Screenshots reais serão adicionados em breve. Os placeholders acima mostram as principais telas da extensão.
 
 ## ✨ Funcionalidades
 
@@ -149,6 +174,108 @@ extensão/
 - Reduza o número máximo de elementos nas configurações
 - Desative análises opcionais se não precisar
 - Limpe o histórico periodicamente
+
+## ❓ FAQ (Perguntas Frequentes)
+
+<details>
+<summary><strong>🔑 Como obter uma API key do Google Gemini?</strong></summary>
+
+1. Acesse [Google AI Studio](https://makersuite.google.com/app/apikey)
+2. Faça login com sua conta Google
+3. Clique em "Create API Key"
+4. Copie a chave gerada (começa com "AIza")
+5. Cole na extensão e clique em "Salvar"
+
+</details>
+
+<details>
+<summary><strong>💰 A API do Gemini é gratuita?</strong></summary>
+
+Sim! O Google Gemini oferece um plano gratuito generoso:
+- 15 requisições por minuto
+- 1 milhão de tokens por mês
+- Suficiente para uso pessoal e testes
+
+Para uso comercial intensivo, consulte os [preços do Google AI](https://ai.google.dev/pricing).
+
+</details>
+
+<details>
+<summary><strong>🌐 Quais sites são suportados?</strong></summary>
+
+A extensão funciona em praticamente qualquer site público:
+- ✅ Sites de e-commerce (Amazon, eBay, etc.)
+- ✅ Redes sociais (Twitter, LinkedIn, etc.)
+- ✅ Blogs e portais de notícias
+- ✅ Aplicações web (Gmail, GitHub, etc.)
+- ❌ Páginas internas do navegador (`chrome://`, `edge://`)
+- ❌ Páginas locais (`file://`)
+
+</details>
+
+<details>
+<summary><strong>📱 Funciona no mobile?</strong></summary>
+
+Atualmente, a extensão é compatível apenas com navegadores desktop baseados em Chromium:
+- ✅ Google Chrome
+- ✅ Microsoft Edge
+- ✅ Brave Browser
+- ✅ Opera
+- ❌ Firefox (planejado para futuras versões)
+- ❌ Safari
+- ❌ Navegadores mobile
+
+</details>
+
+<details>
+<summary><strong>🔒 Meus dados são seguros?</strong></summary>
+
+Sim! A extensão prioriza sua privacidade:
+- 🔐 API key armazenada apenas localmente no seu navegador
+- 🚫 Nenhum dado enviado para servidores externos (exceto Google Gemini)
+- 📝 Histórico salvo apenas no seu dispositivo
+- 🔍 Código fonte aberto para auditoria
+- 🛡️ Permissões mínimas necessárias
+
+</details>
+
+<details>
+<summary><strong>⚡ Por que a extração está lenta?</strong></summary>
+
+Vários fatores podem afetar a velocidade:
+- 🌐 **Tamanho da página**: Páginas complexas demoram mais
+- 🔢 **Número de elementos**: Reduza nas configurações (padrão: 200)
+- 📶 **Conexão com internet**: Necessária para API do Gemini
+- 💾 **Cache**: Resultados são cached por 30 segundos
+- 🎛️ **Configurações**: Desative análises opcionais se não precisar
+
+</details>
+
+<details>
+<summary><strong>🎨 Posso personalizar os prompts gerados?</strong></summary>
+
+Atualmente, os prompts seguem um formato estruturado otimizado. Funcionalidades planejadas:
+- 📝 Templates de prompt personalizáveis
+- 🌍 Suporte a múltiplos idiomas
+- 🎯 Prompts especializados por tipo de site
+- 🔧 Configurações avançadas de análise
+
+</details>
+
+<details>
+<summary><strong>🤝 Como posso contribuir?</strong></summary>
+
+Existem várias formas de ajudar:
+- ⭐ Dê uma estrela no GitHub
+- 🐛 Reporte bugs ou problemas
+- 💡 Sugira novas funcionalidades
+- 🔧 Contribua com código
+- 📝 Melhore a documentação
+- 🌍 Ajude com traduções
+
+Veja o [Guia de Contribuição](CONTRIBUTING.md) para mais detalhes.
+
+</details>
 
 ## 📈 Roadmap
 
